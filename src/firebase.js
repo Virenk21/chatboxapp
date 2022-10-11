@@ -7,14 +7,7 @@ import { getFirestore } from "firebase/firestore";
 
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyDbRXt_dE7msY3fQ5tBS828MfgHK-N1YIg",
-  authDomain: "chatbox-adbb4.firebaseapp.com",
-  projectId: "chatbox-adbb4",
-  storageBucket: "chatbox-adbb4.appspot.com",
-  messagingSenderId: "609787612208",
-  appId: "1:609787612208:web:bfaef2a13570e1170971f5",
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
